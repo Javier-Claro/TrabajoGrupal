@@ -7,5 +7,12 @@ body {
 }
 
 .formulario {
-	text-indent: 40px;
+	text-indent: 400px;
+}
+
+@media (max-width: 768px){
+.formulario{
+    background-color: yellow;
+    text-align: center;
+	}
 }
