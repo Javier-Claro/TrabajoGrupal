@@ -8,15 +8,21 @@ body {
 
 .formulario {
 	text-indent: 40px;
-	border: black 5px none;
 }
 
 @media (max-width: 767px){
-.formulario{
+body{
     text-align: center;
 	}
 }
 
-.return{
- text-align: center;
+.return {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
